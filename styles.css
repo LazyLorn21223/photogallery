@@ -1,0 +1,170 @@
+/*Small*/
+html{
+    background-color: #000;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    padding:10px;
+    align-content: center;
+    text-align: center;
+}
+header{
+    color:#007d7b;
+    background-color: #fff;
+    height: 60px;
+}
+h1{
+    font-size:3em;
+    text-transform:uppercase;
+}
+nav{
+    height:60px;
+}
+nav li{
+  list-style:none;
+  display:inline-flex;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin-right: 10px;
+}
+nav a{
+    font-size: 1.5em;
+    color:#fff;
+}
+[href="#top"]{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+}
+main{
+    background-color: #fff;
+    margin-top:90px;
+}
+p{
+    font-size:1.25em;
+}
+h2{
+    color:#000;
+    font-size: 2em;
+    text-transform:uppercase;
+    padding:15px;
+}
+.about > p, .gallery > p{
+    text-align:left;
+    padding-left: 20px;
+}
+figcaption, label, input, small {
+    font-size: 1em;
+    text-transform:uppercase;
+}
+figure{
+    margin:5px;
+}
+#bottom-white{
+    position: relative;
+    color:#fff;
+    bottom:40px;
+}
+#bottom-black{
+    position: relative;
+    color:#000;
+    bottom:40px;
+}
+#top-white{
+    position: relative;
+    color:#fff;
+    bottom:260px;
+}
+#top-black{
+    position: relative;
+    color:#000;
+    bottom:260px;
+}
+#tall-black{
+    position: relative;
+    color:#000;
+    bottom:610px;
+}
+.contact{
+    background-color: #000;
+}
+.contact > h2{
+    color:#fff;
+}
+.contact > p{
+    color:#fff;
+} 
+.form {
+    text-align:left;
+    margin: 10px 40px 20px 40px;
+}
+.form label {
+    color:#fff;
+    font-weight: bold;
+    text-transform:uppercase;
+    display: block;
+    width: 100%;
+    padding:30px 15px 0px;
+}
+.form input {
+    background-color:#fff;
+    color:#007d7b;
+    font-weight: bold;
+    text-transform:uppercase;
+    width:100%;
+    padding:15px;
+    border:none;
+}
+.form input::placeholder {
+    color:#007d7b;
+    opacity:1;
+}
+.submit-container{
+    display:flex;
+    justify-content:center;
+}
+.submit-container input[type="submit"]{
+    background-color:#007d7b;
+    color:#fff;
+    border-radius: 50px;
+    margin:25px 100px 40px;
+    padding: 10px 0px;
+    border:none;
+    text-align:center;
+}
+footer{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 880px){
+
+body{
+    width: 880px;
+}
+#photo-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px 0;
+    justify-content: center;
+}
+h1{
+    text-align:left;
+    margin-left: 10px;
+}
+
+}
+
+@media screen and (min-width: 1300px){
+body{
+    width:1300px;
+}
+nav ul{
+    text-align: right;
+}
+}
+
